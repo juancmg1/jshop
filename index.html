@@ -16,29 +16,39 @@
 
 <body>
     <!--HTML Semantico-->
+    <header>
     <nav id="barra-navegacion" >
-        <ul>
-            <div class="grid-contenedor">
+        <div class="flex-contenedor">
+            
+            <div class="div-nav">
                 
-                <a href="#">
+                <a class="div-nav"  href="#">
                     <img class="logo"  src="./asssets/letra-j (1).png" alt="">
-                 </a>
-                <li><a class="estilo-link" href="./paginas/moviles.html">Moviles</a></li>
-                <li><a class="estilo-link" href="./paginas/tvs.html">TV"s</a></li>
-                <li><a class="estilo-link" href="./paginas/gaming.html">gaming</a></li>
-                <li><a id="login" class="estilo-link" href="./paginas/ingreso.html">Ingresar</a></li>
-                <li><a class="estilo-link" href="./paginas/registro.html">registrarse</a></li>
+                </a>
+            </div>
+            <div class="div-nav">
+                
+                <ul>
+                     <li><a class="estilo-link" href="./paginas/moviles.html">Moviles</a></li>
+                     <li><a class="estilo-link" href="./paginas/tvs.html">TV"s</a></li>
+                     <li><a class="estilo-link" href="./paginas/gaming.html">gaming</a></li>
+                     <div class="separador"></div>
+                         <li><a id="login" class="estilo-link" href="./paginas/ingreso.html">Ingresar</a></li>
+                         <li><a class="estilo-link" href="./paginas/registro.html">registrarse</a></li>
+                         
+                    </ul>
+                 </div>
             </div>
 
         
-        </ul>
         
         
        
     
     </nav>
-
-    <header>
+    
+    </header>
+    <main class="div-nav">
         <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -76,11 +86,11 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-        <div class="linea-gris">
+        </div>
+        <div class="linea-gris"></div>
+
         
-    </header>
     
-    <main>
         <div class="contenedor-titulomain">
 
             <p class="titulo-main">Productos destacados </p>
@@ -226,7 +236,7 @@
         </div>
         
     </div>
-    
+</main>
         
       
        
