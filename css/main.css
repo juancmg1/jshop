@@ -1,7 +1,17 @@
 @charset "UTF-8";
-.imagen-principal {
-  height: 700px;
-  width: 2000px;
+.contenedor-video {
+  display: flex;
+  justify-content: center;
+}
+
+.video {
+  width: auto;
+  height: 600px;
+  background-color: black;
+}
+
+.carousel-inner {
+  background-color: black;
 }
 
 .carousel-caption {
@@ -12,6 +22,11 @@
   background: none;
   font-family: ´fuente-principal´;
   font-size: 64px;
+}
+
+.link-titulo {
+  text-decoration: none;
+  color: white;
 }
 
 .boton-titulo {
