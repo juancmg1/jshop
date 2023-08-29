@@ -961,6 +961,11 @@ ul:hover .estilo-link:hover {
   text-decoration: underline;
 }
 
+.boto-ingresar {
+  text-decoration: none;
+  color: #272727;
+}
+
 .main-moviles {
   background-image: url(../asssets/letra-j\ \(2\)\ 1.png);
   background-color: #272727;
