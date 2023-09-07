@@ -1,0 +1,41 @@
+
+.body-moviles{
+    background-image:url(../asssets/letra-j\ \(1\).png) ;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #272727;
+}
+.contenedor-marca{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 150px;
+    margin-top: 30px;
+   
+
+}
+
+.items-moviles{
+    text-decoration: none;
+    font-family: ´fuente-principal´;
+    color: aliceblue;
+    font-size: 24px;
+    margin: 20px;
+    background-color: #595959;
+}
+.estilo-marca{
+    display: flex;
+    justify-content: center;
+    background-color: #595959;
+}
+.titulo-item{
+    font-family: ´fuente-principal´;
+    font-size: 24px;
+    color: white;
+    font-weight: normal;
+    padding: 20px;
+    background-color: #c149e6;
+    border-color: #272727;
+    
+}
