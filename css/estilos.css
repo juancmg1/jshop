@@ -81,8 +81,8 @@ ul:hover .estilo-link:hover {
     text-transform: none;
     transition: 0.25s ease;
     margin-top: auto;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     font-size: 12px;
     font-family: ´fuente-principal´;
     background-color: #272727;
@@ -202,6 +202,7 @@ ul:hover .estilo-link:hover {
 .contenedor-titulomain {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #272727;
 }
 
@@ -304,10 +305,21 @@ ul:hover .estilo-link:hover {
   }
 }
 @media (min-width: 575.98px) and (max-width: 768px) {
+  .contenerdor-productos {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: auto;
+    height: 100%;
+    margin-top: 70px;
+    margin-left: 150px;
+    background-color: #272727;
+    justify-content: flex-start;
+  }
   .titulo {
     background: none;
     font-family: ´fuente-principal´;
-    font-size: 20px;
+    font-size: 30px;
     color: aliceblue;
   }
   .boton-titulo {
@@ -329,13 +341,55 @@ ul:hover .estilo-link:hover {
     height: 100px;
     font-family: ´fuente-principal´;
     color: aliceblue;
-    font-size: 50px;
+    font-size: 40px;
+    background-color: #272727;
+  }
+}
+@media (min-width: 0px) and (max-width: 575.98px) {
+  .contenerdor-productos {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: auto;
+    height: 100%;
+    margin-top: 70px;
+    margin-left: 150px;
+    background-color: #272727;
+    justify-content: flex-start;
+  }
+  .titulo {
+    background: none;
+    font-family: ´fuente-principal´;
+    font-size: 32px;
+    color: aliceblue;
+  }
+  .boton-titulo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: 0;
+    background-color: #393939;
+    box-shadow: rgba(0, 0, 0, 0.05) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: all 0.5s ease;
+    font-family: ´fuente-principal´;
+    color: aliceblue;
+  }
+  .titulo-main {
+    height: 100px;
+    font-family: ´fuente-principal´;
+    color: aliceblue;
+    font-size: 40px;
     background-color: #272727;
   }
 }
 .contenerdor-productos {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
   width: auto;
   height: 100%;
@@ -664,6 +718,18 @@ ul:hover .estilo-link:hover {
     line-height: normal;
   }
 }
+@media (min-width: 0px) and (max-width: 575.98px) {
+  .contenerdor-productos {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: auto;
+    height: 100%;
+    margin-top: 70px;
+    background-color: #272727;
+    justify-content: flex-start;
+  }
+}
 .contenedor-ayuda {
   display: flex;
   justify-content: center;
@@ -801,6 +867,61 @@ ul:hover .estilo-link:hover {
     background-color: #575757;
     margin: 5px;
     border-radius: 20px;
+  }
+}
+@media (min-width: 575.98px) and (max-width: 768px) {
+  .titulo-ayuda {
+    background-color: #272727;
+    height: 100px;
+    font-family: ´fuente-principal´;
+    color: aliceblue;
+    font-size: 42px;
+  }
+  .carta-contacto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 304px;
+    flex-shrink: 0;
+    background-color: #575757;
+    margin: 5px;
+    border-radius: 20px;
+  }
+  .contenedor-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #272727;
+  }
+}
+@media (min-width: 0px) and (max-width: 575.98px) {
+  .titulo-ayuda {
+    background-color: #272727;
+    height: 100px;
+    font-family: ´fuente-principal´;
+    color: aliceblue;
+    font-size: 35px;
+  }
+  .carta-contacto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 304px;
+    flex-shrink: 0;
+    background-color: #575757;
+    margin: 5px;
+    border-radius: 20px;
+  }
+  .contenedor-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #272727;
+    align-items: center;
   }
 }
 .contenedor-registro {

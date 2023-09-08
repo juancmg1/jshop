@@ -1,11 +1,15 @@
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 .body-index{
     background-color: #272727;
 }
 .contenedor-video{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   @include flex-center; 
+    
 }
 
 .video{
@@ -68,8 +72,7 @@
     
 }
 .contenedor-titulomain{
-    display: flex;
-    justify-content: center;
+    @include flex-center;
     background-color: #272727;
 }
 .titulo-main{
@@ -110,6 +113,7 @@
         color: aliceblue;
         font-size: 50px;
         background-color: #272727;
+    
     }
     
 
@@ -185,10 +189,21 @@
 
  }
  @media (min-width: 575.98px) and (max-width: 768px){
+    .contenerdor-productos {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        width: auto;
+        height: 100%;
+        margin-top: 70px;
+        margin-left: 150px;
+        background-color: #272727;
+        justify-content: flex-start;
+    }
     .titulo{
         background: none;
         font-family: ´fuente-principal´;
-        font-size: 20px;
+        font-size: 30px;
         color: aliceblue;
     }
     .boton-titulo {
@@ -212,7 +227,52 @@
         height: 100px;
         font-family: ´fuente-principal´;
         color: aliceblue;
-        font-size: 50px;
+        font-size: 40px;
+        background-color: #272727;
+    }
+  
+
+ }
+ @media (min-width: 0px) and (max-width: 575.98px){
+    .contenerdor-productos {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        width: auto;
+        height: 100%;
+        margin-top: 70px;
+        margin-left: 150px;
+        background-color: #272727;
+        justify-content: flex-start;
+    }
+    .titulo{
+        background: none;
+        font-family: ´fuente-principal´;
+        font-size: 32px;
+        color: aliceblue;
+    }
+    .boton-titulo {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 15px 30px;
+        border-radius: 50px;
+        border: 0;
+        background-color: #393939;
+        box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        font-size: 12px;
+        transition: all .5s ease;
+        font-family: ´fuente-principal´;
+        color: aliceblue;
+    
+    
+       }
+       .titulo-main{
+        height: 100px;
+        font-family: ´fuente-principal´;
+        color: aliceblue;
+        font-size: 40px;
         background-color: #272727;
     }
   
